@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Project 2</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">IC "Repair Design Project"</div>
+        <nav>
+          <ul class="header-nav">
+            <li class="header-nav__item">
+              <a class="header-nav__item_link" href="#">HOME</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__item_link" href="#">PROJECTS</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__item_link" href="#">MEASUREMENT</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__item_link" href="#">TEAM</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__item_link" href="#">REVIEWS</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__item_link" href="#">CONTACTS</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header_phone">+7 (928) 768-32-39</div>
+
+        <button class="button">Request a call</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section-1">
+        <div class="container container-section">
+          <div class="section__content">
+            <h1 class="section__title">
+              Turnkey Repair in the city of Rostov-on-Don
+            </h1>
+            <p class="section__text">
+              Get ready-made turnkey repairs on time with work time saving up to
+              45 days and 20% from cost of materials due to the organization of
+              work
+            </p>
+            <button class="button">CALCULATE THE COST</button>
+            <button class="button button_clear">SUBMIT YOUR APPLICATION</button>
+          </div>
+        </div>
+        <section class="section__overlay"></section>
+      </section>
+      <section class="section-2">
+        <div class="container projects">
+          <div class="project__block">
+            <h2 class="project__title">Completed projects</h2>
+            <p class="project__text project__text">
+              Only a small part of the work performed by our company is
+              presented on the site. For 14 years on in the construction market
+              we have made happy more than 1000 families
+            </p>
+            <ul class="project__small-block">
+              <li class="item">
+                <h3 class="project__sub-title">City:</h3>
+                <p class="project__text project__text_small">
+                  Rostov-on-Don LCD admiral
+                </p>
+              </li>
+              <li class="item">
+                <h3 class="project__sub-title">apartment area:</h3>
+                <p class="project__text project__text_small">81 m2</p>
+              </li>
+              <li class="item">
+                <h3 class="project__sub-title">Repair time:</h3>
+                <p class="project__text project__text_small">3.5 months</p>
+              </li>
+              <li class="item">
+                <h3 class="project__sub-title">Repair Cost:</h3>
+                <p class="project__text project__text_small">Upon request</p>
+              </li>
+            </ul>
+            <!-- <div class="arrows">
+              <img
+                class="left-arrow"
+                src="./left_stroke.svg"
+                alt="левая стрелка"
+              />
+              <img class="dot" src="./active_dot.svg" alt="точка" />
+              <img class="dot" src="./non-_active.svg" alt="точка" />
+              <img class="dot" src="./non-_active.svg" alt="точка" />
+              <img
+                class="right-arrow"
+                src="./right__Stroke.svg"
+                alt="стрелка вправо"
+              />
+            </div> -->
+            <div class="arrows">
+              <button class="arrow_button arrow-left"></button>
+              <button class="arrow_button dot dot_active"></button>
+              <button class="arrow_button dot"></button>
+              <button class="arrow_button dot"></button>
+              <button class="arrow_button arrow-right"></button>
+            </div>
+          </div>
+          <div class="project__right-block">
+            <ul class="project__right-block-list">
+              <li class="list_item">
+                <a
+                  href="#"
+                  class="project__right_link project__right_link-active"
+                  >Rostov-on-Don, Admiral</a
+                >
+              </li>
+              <li class="list_item">
+                <a href="#" class="project__right_link">Sochi Thieves</a>
+              </li>
+              <li class="list_item">
+                <a href="#" class="project__right_link"
+                  >Rostov-on-Don Patriotic</a
+                >
+              </li>
+            </ul>
+            <img src="./project__right_img.png" alt="картинка два стула" />
+          </div>
+        </div>
+      </section>
+      <section class="container container_up">
+        <h2 class="title_center">online control</h2>
+        <img class="img_container" src="./camera logo.svg" alt="лого камера" />
+        <section class="cover">
+          <div class="video_container"></div>
+          <div class="video_container-overlay"></div>
+          <button class="button play-button"></button>
+        </section>
+
+        <div class="border"></div>
+        <p class="text_under-video">
+          At each facility, a camera is installed that broadcasts the progress
+          of work on the clock. At any time, you can go to our website and
+          monitor the progress of work in your apartment. You can watch the live
+          broadcast from one of our facilities! Leave a request below and you
+          will receive a link to the broadcast.
+        </p>
+        <div class="inputs">
+          <div class="input">
+            <h4 class="card__title">Name</h4>
+            <input
+              type="text"
+              placeholder="What is your name:"
+              class="input-text"
+            />
+          </div>
+          <div class="input">
+            <h4 class="card__title">Phone</h4>
+            <input
+              type="text"
+              placeholder="Your phone number:"
+              class="input-text"
+            />
+          </div>
+          <button class="button" type="submit">submit</button>
+        </div>
+        <div class="box">
+          <input class="radio" type="checkbox" />
+          <p class="box-text">I agree to the processing of personal data</p>
+        </div>
+      </section>
+      <section class="container section__cards">
+        <h3 class="title_center title_center_black">TYPES OF REPAIR</h3>
+        <img
+          class="img_container"
+          src="./logo__hammer.svg"
+          alt="картинка молота и ключа"
+        />
+        <div class="cards">
+          <div class="card">
+            <img
+              src="./card__image-1.jpg"
+              alt="картинка комнаты"
+              class="card__img"
+            />
+            <div class="card-box">
+              <h4 class="card__title">Redecorating</h4>
+              <ul class="card__list">
+                <li class="card__list_text">Dismantling of old coatings</li>
+                <li class="card__list_text">Wallpapering</li>
+                <li class="card__list_text">Painting walls and ceilings</li>
+                <li class="card__list_text">Laying flooring</li>
+                <li class="card__list_text">Replacing plumbing</li>
+                <li class="card__list_text">Replacing sockets and switches</li>
+                <li class="card__list_text">Replacing doors</li>
+              </ul>
+              <button class="button button_card">from 900 rub / m2</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/card__image-2.jpg"
+              alt="картинка комнаты"
+              class="card__img"
+            />
+            <div class="card-box">
+              <h4 class="card__title">Overhaul</h4>
+              <ul class="card__list">
+                <li class="card__list_text">Dismantling of old coatings</li>
+                <li class="card__list_text">Wallpapering</li>
+                <li class="card__list_text">Painting walls and ceilings</li>
+                <li class="card__list_text">Laying flooring</li>
+                <li class="card__list_text">Replacing plumbing</li>
+                <li class="card__list_text">Replacing sockets and switches</li>
+                <li class="card__list_text">Replacing doors</li>
+              </ul>
+              <button class="button button_card">from 1800 rub / m2</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./card__image-3.jpg"
+              alt="картинка комнаты"
+              class="card__img"
+            />
+            <div class="card-box">
+              <h4 class="card__title">Designer Repair</h4>
+              <ul class="card__list">
+                <li class="card__list_text">Dismantling of old coatings</li>
+                <li class="card__list_text">Wallpapering</li>
+                <li class="card__list_text">Painting walls and ceilings</li>
+                <li class="card__list_text">Laying flooring</li>
+                <li class="card__list_text">Replacing plumbing</li>
+                <li class="card__list_text">Replacing sockets and switches</li>
+                <li class="card__list_text">Replacing doors</li>
+              </ul>
+              <button class="button button_card">from 4000 rub / m2</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-3">
+        <div class="section-3-img">
+          <ol class="ol-ad">
+            <li class="list-ad">
+              <!-- <div class="circle"></div> -->
+              Our specialist will arrive for measurements per day contact, or
+              appoint a date convenient for you
+            </li>
+            <li class="list-ad">Free metering</li>
+            <li class="list-ad">Free consultation</li>
+            <li class="list-ad">
+              Get a cost estimate and the timing of your future repairs
+            </li>
+          </ol>
+        </div>
+        <div class="form"></div>
+      </section>
+    </main>
+  </body>
+</html>
