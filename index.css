@@ -58,6 +58,11 @@ form {
   text-align: center;
 }
 
+.button_header {
+  min-width: 160px;
+  height: 37px;
+}
+
 @media screen and (max-width: 1300px) {
   .button_centered {
     min-width: 0;
@@ -122,7 +127,7 @@ form {
 
 .header-container {
   height: 83px;
-  width: 1170px;
+  width: 1260px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,6 +143,8 @@ form {
 .header-nav {
   display: flex;
   list-style: none;
+  width: 675px;
+  justify-content: space-around;
 }
 
 .header-nav__item {
@@ -148,14 +155,26 @@ form {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.header_phone {
+  font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 15px;
+
+  color: #ffffff;
+}
+
+.header_phone {
   text-decoration-line: underline;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #e3b873;
+  width: 125px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -354,7 +373,7 @@ form {
   line-height: 27px;
   color: white;
   width: 373px;
-  margin: 35px 0 40px;
+  margin: 30px 0 45px;
 }
 @media screen and (max-width: 1300px) {
   .project__text {
@@ -374,6 +393,7 @@ form {
   line-height: 25px;
   text-transform: uppercase;
   color: #e3b873;
+  width: 180px;
 }
 @media screen and (max-width: 1300px) {
   .project__sub-title {
@@ -388,6 +408,7 @@ form {
   line-height: 21px;
   width: 100px;
   text-align: start;
+  margin: 8px 0px 0px 0px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -403,7 +424,8 @@ form {
 
 .item {
   width: 165px;
-  margin-right: 30px;
+  margin-right: 25px;
+  height: 110px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -423,10 +445,13 @@ form {
 .project__right-block-list {
   display: flex;
   list-style: none;
+  padding: 0px;
+  justify-content: space-between;
+
 }
 
 .list_item {
-  margin: 100px 60px 52px 0;
+  margin: 90px 42px 51px 0;
 }
 
 .project__right_link {
@@ -448,7 +473,7 @@ form {
 
 .arrows {
   display: flex;
-  margin: 80px 0 0 0;
+  margin: 25px 0 0 0;
 }
 
 @media screen and (max-width: 1300px) {
