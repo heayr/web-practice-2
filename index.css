@@ -52,7 +52,6 @@ form {
   box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
   font-family: Nunito Sans;
   font-size: 11px;
-  font-style: italic;
   font-weight: 400;
   line-height: 15px;
   letter-spacing: 0em;
@@ -328,7 +327,7 @@ form {
   line-height: 37px;
   letter-spacing: -0.07em;
   text-transform: uppercase;
-
+  width: 200px;
   color: #e3b873;
 }
 
@@ -351,7 +350,8 @@ form {
   font-size: 14px;
   line-height: 27px;
   color: white;
-  width: 408px;
+  width: 373px;
+  margin: 35px 0 40px;
 }
 @media screen and (max-width: 1300px) {
   .project__text {
@@ -571,7 +571,6 @@ form {
     rgba(0, 0, 0, 0.75) 0%,
     rgba(0, 0, 0, 0.9) 100%
   );
-
   z-index: -1;
 }
 
@@ -1258,6 +1257,7 @@ form {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    z-index: 2;
   }
 }
 
@@ -1270,6 +1270,7 @@ form {
   border: none;
   position: absolute;
   padding: 0;
+  z-index: 2;
 }
 
 .circle-arrow-left {
