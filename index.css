@@ -131,6 +131,7 @@ form {
 @media screen and (max-width: 1300px) {
   .header-container {
     justify-content: space-around;
+    height: 57px;
   }
 }
 
@@ -267,11 +268,11 @@ form {
 
 @media screen and (max-width: 1300px) {
   .section__text {
-    margin: 15px auto 0;
+    margin: 15px auto 43px;
     font-size: 14px;
     line-height: 135.83%;
     min-width: 0;
-    width: 340px;
+    width: 337px;
   }
 }
 
@@ -288,6 +289,7 @@ form {
   .projects {
     flex-direction: column;
     justify-content: center;
+    padding: 0;
   }
 }
 
@@ -314,8 +316,9 @@ form {
 
 @media screen and (max-width: 1300px) {
   .project__small-block {
-    width: 375px;
+    width: 340px;
     justify-content: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -358,6 +361,8 @@ form {
     width: 310px;
     align-self: center;
     text-align: center;
+    font-size: 11px;
+    line-height: 158.48%;
   }
 }
 
@@ -374,6 +379,7 @@ form {
   .project__sub-title {
     font-size: 14px;
     line-height: 138.6%;
+    margin-top: 20px;
   }
 }
 
@@ -384,6 +390,17 @@ form {
   text-align: start;
 }
 
+@media screen and (max-width: 1300px) {
+  .project__text_small {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 135.84%;
+    margin: 15px 0px 0px 0px;
+  }
+}
+
 .item {
   width: 165px;
   margin-right: 30px;
@@ -392,6 +409,8 @@ form {
 @media screen and (max-width: 1300px) {
   .item {
     width: 150px;
+    margin: 0;
+    height: 100px;
   }
 }
 
@@ -506,6 +525,7 @@ form {
 @media screen and (max-width: 1300px) {
   .container_up {
     background-color: black;
+    margin-top: 0px;
   }
 }
 
@@ -519,6 +539,16 @@ form {
   color: black;
 }
 
+@media screen and (max-width: 1300px) {
+  .title_center_black {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 138.6%;
+  }
+}
+
 .img_container {
   background-color: transparent;
   margin: 10px 0 30px;
@@ -529,6 +559,11 @@ form {
   padding: 0;
   height: 40px;
   width: 125px;
+}
+@media screen and (max-width: 1300px) {
+  .img_container {
+    margin-bottom: 5px;
+  }
 }
 
 .cover {
@@ -589,6 +624,12 @@ form {
   margin-top: 62px;
 }
 
+@media screen and (max-width: 1300px) {
+  .border {
+    margin-top: 25px;
+  }
+}
+
 .text_under-video {
   width: 650px;
   align-self: center;
@@ -609,6 +650,7 @@ form {
     text-align: center;
     color: #ffffff;
     width: 340px;
+    margin-top: 25px;
   }
 }
 
@@ -657,6 +699,17 @@ form {
     width: 340px;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 75px;
+    row-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .input {
+    margin-bottom: 60px;
+  }
+  .input:nth-child(2) {
+    margin-bottom: 30px;
   }
 }
 
@@ -729,6 +782,11 @@ form {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 1300px) {
+  .box {
+    margin-bottom: 60px;
+  }
+}
 
 .radio {
   -webkit-appearance: none;
@@ -781,7 +839,7 @@ form {
 @media screen and (max-width: 1300px) {
   .section__cards {
     margin-top: -59px;
-    padding: 60px 0 0;
+    padding: 80px 0 0;
     background-color: white;
   }
 }
@@ -793,6 +851,12 @@ form {
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .cards {
+    margin-top: 27px;
+  }
 }
 
 .card__title {
@@ -844,6 +908,8 @@ form {
 
 @media screen and (max-width: 1300px) {
   .card-box {
+    margin-top: -140px;
+
     align-self: flex-start;
     width: 270px;
     /* margin-bottom: 50px; */
@@ -895,20 +961,18 @@ form {
   font-weight: 400;
   font-size: 15px;
   line-height: 138.6%;
-
+  min-width: 190px;
   text-transform: uppercase;
-
   color: #ffffff;
   display: none;
+  align-self: flex-start;
+  margin-top: -50px;
+  height: 40px;
 }
 
 @media screen and (max-width: 1300px) {
   .button_card_small {
     display: block;
-    align-self: flex-start;
-    margin-top: -20px;
-    width: 190px;
-    height: 40px;
   }
 }
 
@@ -1100,7 +1164,7 @@ form {
 @media screen and (max-width: 1300px) {
   .form__container-2 {
     width: 340px;
-    margin-bottom: 65px;
+    margin: 8px 0 65px;
   }
 }
 
@@ -1174,6 +1238,12 @@ form {
   .box_4-h2 {
     width: 340px;
     text-align: center;
+    font-family: "Yeseva One";
+    font-size: 22px;
+    line-height: 138.6%;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
   }
 }
 
@@ -1472,7 +1542,7 @@ form {
 @media screen and (max-width: 1300px) {
   .form__box-6 {
     width: 340px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 }
 
@@ -1516,6 +1586,11 @@ form {
   margin: 35px auto 45px;
   color: #ffffff;
 }
+@media screen and (max-width: 1300px) {
+  .title_white {
+    margin-top: 50px;
+  }
+}
 
 .form-wrap {
   display: flex;
@@ -1556,6 +1631,7 @@ form {
     width: 340px;
     font-size: 18px;
     line-height: 138.6%;
+    margin-top: 40px;
   }
 }
 
@@ -1572,7 +1648,7 @@ form {
   .section-6__button-container {
     order: 3;
     width: 100px;
-    margin-bottom: 50px;
+    margin: 20px 0 50px;
   }
 }
 
@@ -1634,6 +1710,7 @@ form {
     order: 1;
     width: 340px;
     height: 255px;
+    margin-top: 45px;
   }
 }
 
